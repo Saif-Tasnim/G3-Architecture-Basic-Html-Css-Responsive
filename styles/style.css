@@ -1,0 +1,149 @@
+/* import google font -work sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* universal style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    height: 1340px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.bar h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.links a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.name-details {
+    width: 862px;
+    height: 225px;
+    margin: 0 auto;
+    margin-bottom: 282px;
+
+}
+
+.name-details h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    padding-top: 124px;
+
+}
+
+.name-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 11px;
+}
+
+.name-details .button {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 21px 25px;
+    border: none;
+
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+/* main part start */
+/* main{
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.grp-list {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 73px;
+    margin: 85px 620px;
+}
+
+.grp-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-short {
+    width: 537px;
+    height: 304px;
+}
+
+.features-short h3 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.features-short .bold {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+.features-short .color {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+.features-short p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
