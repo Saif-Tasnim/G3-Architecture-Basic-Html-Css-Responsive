@@ -92,29 +92,28 @@ nav {
 
 
 /* main part start */
-/* main{
-    display: flex;
-    justify-content: center;
-    
-} */
 
+/* featured with grp picture section start */
 .grp-list {
+    width: 1440px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 73px;
-    margin: 85px 620px;
+    margin: auto;
+
 }
 
 .grp-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    margin: 85px;
 }
 
 .features-short {
     width: 537px;
     height: 304px;
+    margin: -20px;
 }
 
 .features-short h3 {
@@ -146,4 +145,222 @@ nav {
     line-height: 26px;
     color: #727272;
     margin-bottom: 32px;
+}
+
+
+/* feature list start */
+.feature-list {
+    max-width: 1500px;
+    display: flex;
+    gap: 146px;
+    margin: auto;
+    padding-top: 131px;
+}
+
+.vr {
+
+    border-left: 5px solid #FF900E;
+
+}
+
+.feature-list .writing-part h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-left: 25px;
+    margin-bottom: 24px;
+}
+
+.feature-list .writing-part p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+    width: 586px;
+}
+
+.details {
+    width: 650px;
+    height: 180px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.details h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 30px;
+}
+
+.image-button-part button {
+    position: relative;
+    padding: 46px 42px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    top: -127px;
+    left: -97px;
+}
+
+.image-button-part button>p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* Some facts start */
+
+.some-facts {
+    max-width: 1440px;
+    margin: 131px auto;
+}
+
+.some-facts h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.some-facts p {
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+
+}
+
+.all-acheived {
+    display: flex;
+    gap: 124px;
+
+
+}
+
+.acheived {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    transition: transform 1s ease-in;
+}
+
+.acheived .img {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.acheived h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.acheived p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    padding-top: 15px;
+    /* padding-left: 35px; */
+}
+
+.acheived.ribon>p {
+    padding-left: 40px;
+}
+
+.acheived.project>p {
+    padding-left: 45px;
+}
+
+.acheived.customer>p {
+    padding-left: 55px;
+}
+
+.acheived.email>p {
+    padding-left: 65px;
+}
+
+/* Transition used on achieved div hover effect */
+.acheived:hover {
+    cursor: pointer;
+    transform: scale(70%, 70%);
+
+}
+
+/* Sponsor Details Start */
+.sponsor-details {
+    max-width: 1440px;
+    margin: 131px auto;
+}
+
+.sponsor-details h1 {
+    /* padding: 50px; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313
+}
+
+.sponsor-details p {
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 560px;
+    margin: 0 auto;
+
+}
+
+.sponsor-list{
+    display: flex;
+    gap: 155px;
+    margin-top: 50px;
+}
+
+/* Footer Part Start */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+}
+
+footer p{
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #424242;
+padding: 42px 410px;
 }
