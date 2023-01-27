@@ -21,6 +21,10 @@ nav {
     padding-top: 50px;
 }
 
+.fa-bars{
+   display: none;
+}
+
 .bar h2 {
     font-weight: 700;
     font-size: 45px;
@@ -259,8 +263,6 @@ nav {
 .all-acheived {
     display: flex;
     gap: 124px;
-
-
 }
 
 .acheived {
